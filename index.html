@@ -7,16 +7,17 @@
     <title>Profit and Loss</title>
 </head>
 <body>
-    <h1>Stocks</h1>
+    <h1 class="header-text">Stocks Profit & Loss Calculator</h1>
     <main>
         <label >Intial Price</label>
-        <input class="stock-data" placeholder="Enter the price of stock" />
+        <input type="number" id="intial-price" placeholder="Enter the price of stock" />
         <label >Quantity of stocks</label>
-        <input class="stock-data" placeholder="Enter the number of stocks"/>
+        <input type="number" id="no-of-stocks" placeholder="Enter the number of stocks"/>
         <label>Current Price</label>
-        <input class="stock-data" placeholder="Enter the current price of stock"/>
+        <input type="number" id="current-price" placeholder="Enter the current price of stock"/>
         <button id="submit-btn">Tell Me</button>
         <div id="output-div"></div>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
