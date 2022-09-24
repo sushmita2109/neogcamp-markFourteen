@@ -28,7 +28,7 @@ function submitHandler(){
     var initial=Number(initialPrice.value) ;
     var number=Number(noOfStocks.value);
     var current=Number(currentPrice.value);
-    if(initial&&number&&current){
+    if(initial>0&&number>0&&current>0){
         calculateProfitLoss(initial,number,current);
     }
     else{
